@@ -1,5 +1,3 @@
-<a href="https://toxicfilter.com"><img src="art/logo.png" alt="ToxicFilter" width="96"></a>
-
 # ToxicFilter example: plain PHP, no framework
 
 A comment wall moderated with [ToxicFilter](https://toxicfilter.com), built with plain PHP, no framework and the PHP SDK ([toxicfilter/php-sdk](https://github.com/toxicfilter/php-sdk)). Somebody posts a comment and ToxicFilter decides:
