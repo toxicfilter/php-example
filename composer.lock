@@ -1,0 +1,77 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a034d383d987d5008990c2590bd66a33",
+    "packages": [
+        {
+            "name": "edulazaro/toxicfilter-sdk",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/toxicfilter/php-sdk.git",
+                "reference": "c952f6fe11150e053a876109912de04d4d50cde0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/toxicfilter/php-sdk/zipball/c952f6fe11150e053a876109912de04d4d50cde0",
+                "reference": "c952f6fe11150e053a876109912de04d4d50cde0",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.5|^11.0|^12.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ToxicFilter\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Edu Lazaro",
+                    "homepage": "https://edulazaro.com"
+                }
+            ],
+            "description": "The official PHP client for the ToxicFilter content moderation API.",
+            "homepage": "https://toxicfilter.com/docs/sdks",
+            "keywords": [
+                "api",
+                "client",
+                "content-moderation",
+                "moderation",
+                "spam",
+                "toxicfilter",
+                "toxicity"
+            ],
+            "support": {
+                "docs": "https://toxicfilter.com/docs/sdks",
+                "issues": "https://github.com/toxicfilter/php-sdk/issues",
+                "source": "https://github.com/toxicfilter/php-sdk"
+            },
+            "time": "2026-09-24T02:08:29+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.1"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}

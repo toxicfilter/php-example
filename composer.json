@@ -1,0 +1,28 @@
+{
+    "name": "toxicfilter/php-example",
+    "type": "project",
+    "description": "A comment wall moderated with ToxicFilter in plain PHP: allow, review or block, with a signed webhook.",
+    "keywords": [
+        "toxicfilter",
+        "content-moderation",
+        "example",
+        "php"
+    ],
+    "homepage": "https://github.com/toxicfilter/php-example",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edu Lazaro",
+            "homepage": "https://edulazaro.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "edulazaro/toxicfilter-sdk": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wall\\": "src/"
+        }
+    }
+}
